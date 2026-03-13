@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────
+# Invoice Processor – Python závislosti
+# ─────────────────────────────────────────────
+# Instalace: pip install -r requirements.txt
+
+# YAML konfigurace pro externí pravidla (rules-as-data)
+PyYAML>=6.0
+
+# GUI pro invoice_gui.py a invoice_gui_v2.py (moderní dark theme UI)
+customtkinter>=5.2.0
+
+# PDF extrakce textu a konverze na obrázky (PyMuPDF je rychlejší a spolehlivější)
+PyMuPDF>=1.23.0
+
+# Officiální Ollama Python klient
+# Podpora pro textové i vision modely (llama3.1, llama3.2-vision, llava, atd.)
+ollama>=0.1.0
+
+# Zpracování obrázků pro Vision modely
+# Používá se pro přípravu obrázků před analýzou (resize, konverze formátů)
+Pillow>=10.0.0
+
+# Monitoring paměti a výkonu (volitelné, pro lepší debug)
+psutil>=5.9.0
+
+# OCR obrázků (VOLITELNÉ – vyžaduje také systémový Tesseract)
+# Tesseract instalace (Windows):
+#   1. Stáhnout z: https://github.com/UB-Mannheim/tesseract/wiki
+#   2. Nainstalovat tesseract-ocr-w64-setup-5.x.x.exe
+#   3. Při instalaci vybrat Czech a English jazyky
+# Tesseract instalace (Linux):
+#   sudo apt install tesseract-ocr tesseract-ocr-ces
+# Tesseract instalace (macOS):
+#   brew install tesseract tesseract-lang
+# pytesseract>=0.3.10
+
+# Standardní knihovny (součást Pythonu, není třeba instalovat):
+# os, re, sys, json, shutil, logging, pathlib, dataclasses, typing, threading, datetime, base64, io
+
+# ─── BEZPEČNOST (security.py) ───
+# Šifrování dat v rest (Fernet = AES-128-CBC + HMAC)
+cryptography>=41.0.0
+
+# Detekce MIME typů souborů (Windows varianta)
+# Na Linuxu použijte: python-magic>=0.4.27
+python-magic-bin>=0.4.14
