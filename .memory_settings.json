@@ -1,6 +1,0 @@
-{
-  "ocr_memory_mb": 8192,
-  "ollama_vram_gb": 8,
-  "memory_threshold": 60,
-  "profile": "balanced"
-}
