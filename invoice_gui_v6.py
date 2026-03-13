@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Invoice Processor GUI v6.5 - Multi-Agent Workflow with RapidOCR
+Invoice Processor GUI - Multi-Agent Workflow with RapidOCR
 Thin GUI layer over core business logic engine.
 
 This is ONLY the presentation layer. All business logic is in core/engine.py
@@ -128,7 +128,7 @@ class InvoiceProcessorGUIV6(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("🧾 Invoice Processor v6.5 - Multi-Agent Workflow + Memory Settings")
+        self.title("🧾 Invoice Processor")
         self.geometry("1200x900")
         self.minsize(1100, 800)
 
@@ -312,7 +312,7 @@ class InvoiceProcessorGUIV6(ctk.CTk):
 
         title_label = ctk.CTkLabel(
             header_frame,
-            text="🧾 Invoice Processor v6.5",
+            text="🧾 Invoice Processor",
             font=ctk.CTkFont(size=28, weight="bold")
         )
         title_label.grid(row=0, column=0, sticky="w")
