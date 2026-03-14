@@ -1,4 +1,4 @@
-# 🧾 Invoice Processor v6.5 – Multi-Agent Invoice Classification System
+# 🧾 Invoice Processor – Multi-Agent Invoice Classification System
 
 A sophisticated invoice processing application using **3 specialized AI agents** with weighted voting consensus for maximum accuracy in invoice classification and data extraction.
 
