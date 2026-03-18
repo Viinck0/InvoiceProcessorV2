@@ -1,11 +1,6 @@
 # 🧾 Invoice Processor – Multi-Agent Invoice Classification System
 
 A sophisticated invoice processing application using **3 specialized AI agents** with weighted voting consensus for maximum accuracy in invoice classification and data extraction.
-
-![Version](https://img.shields.io/badge/version-6.5-blue)
-![Python](https://img.shields.io/badge/python-3.8%2B-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
 ---
 
 ## 📋 Table of Contents
